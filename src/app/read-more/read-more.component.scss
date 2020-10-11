@@ -1,0 +1,35 @@
+$font-size:100%;
+$line-height: 1.5;
+$lines-to-show: 1;
+
+div.collapsed {
+  display: -webkit-inline-box;
+  display: inline-block;
+  font-size: $font-size;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 85%;
+}
+
+.readMore {
+    margin-top: -3px !important;
+    line-height: 1.4 !important;
+}
+
+.isCollapsed {
+    width: 85%;
+}
+
+.cb {
+    clear: both;
+    height: 0;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
